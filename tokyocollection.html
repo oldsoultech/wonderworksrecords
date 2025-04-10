@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tokyo Collection by Smaertstick</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #111;
+      color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #222;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .video-item {
+      text-align: center;
+    }
+
+    .video-title {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 */
+      background-color: #000;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #222;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tokyo Collection by Smaertstick</h1>
+  </header>
+
+  <main>
+    <div class="video-grid">
+      <div class="video-item">
+        <div class="video-title">Peace</div>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/6iA_qwhmy0A" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-item">
+        <div class="video-title">Witches' Home</div>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/Wt7rsp_iGrA" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-item">
+        <div class="video-title">Midnight Surge</div>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/5v1CCUiR09Q" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-item">
+        <div class="video-title">Midnight Drift</div>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/5M4_BZhmJio" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-item">
+        <div class="video-title">Despair and Hopeless in Japan</div>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/IGR4rdgt9p8" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 WonderWorks Records · Tokyo Collection by Smaertstick
+  </footer>
+</body>
+</html>
